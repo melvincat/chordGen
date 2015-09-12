@@ -1,10 +1,4 @@
-//
-//  key.cpp
-//  chordGen
-//
-//  Created by Nicholas on 12/09/2015.
-//  Copyright (c) 2015 Nicholas. All rights reserved.
-//
+
 #include "key.h"
 #include <vector>
 #include <string>

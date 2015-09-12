@@ -1,10 +1,4 @@
-//
-//  main.cpp
-//  chordGen
-//
-//  Created by Nicholas on 11/09/2015.
-//  Copyright (c) 2015 Nicholas. All rights reserved.
-//
+
 
 #include <iostream>
 #include <vector>
@@ -13,6 +7,7 @@
 #include "chord_type.h"
 #include "chord_generator.h"
 #include "chord_convertor.h"
+//creates a welcome message, could exist in main but is cleaner this way
 void welcome()
 {
     using std::string;
@@ -25,10 +20,12 @@ void welcome()
     << "\n" << "\n";
     std::cout << line1 << line1 << "\n";
 }
+//prints an int
 inline void print(int print)
 {
     std::cout <<print << "\n";
 }
+//prints a string, created for ease of use
 inline void print(std::string print)
 {
     std::cout << print << "\n";

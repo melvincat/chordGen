@@ -1,10 +1,3 @@
-//
-//  chord_convertor.h
-//  chordGen
-//
-//  Created by Nicholas on 12/09/2015.
-//  Copyright (c) 2015 Nicholas. All rights reserved.
-//
 
 #ifndef __chordGen__chord_convertor__
 #define __chordGen__chord_convertor__

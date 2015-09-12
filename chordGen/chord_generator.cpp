@@ -1,16 +1,11 @@
-//
-//  chord_generator.cpp
-//  chordGen
-//
-//  Created by Nicholas on 12/09/2015.
-//  Copyright (c) 2015 Nicholas. All rights reserved.
-//
 
 #include "chord_generator.h"
 #include "chord_type.h"
 #include <vector>
 #include <iostream>
 #include <random>
+//randon number function, creates a random number between the min and
+//max values
 inline int RandomNumber(int min, int max){
     std::random_device rd;
     std::uniform_int_distribution<> distr(min, max);

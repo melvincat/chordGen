@@ -1,14 +1,10 @@
-//
-//  set_attributes.cpp
-//  chordGen
-//
-//  Created by Nicholas on 12/09/2015.
-//  Copyright (c) 2015 Nicholas. All rights reserved.
-//
+
 #include <iostream>
 #include "set_attributes.h"
 #include "attributes.h"
 #include <string>
+//sets the attributes for chord generation, calling a pointer to
+//a struct
 void set_attributes(attribute * att)
 {
     using std::cout; using std::cin;
