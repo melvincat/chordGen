@@ -59,7 +59,9 @@ int main(int argc, const char * argv[]) {
     /*converts the enums to string and stores this as a vector, these strings are made up
      *the chord name as well as its corresponding notes */
     std::vector<std::string> final = chord_convertor(chord_vec, chord_Attributes.key);
+    std::string line1 = "***************************************** \n";
+    std::cout << "\n" + line1 + line1 + "\n";
     for (auto print_message : final) print(print_message);
-    
+    std::cout << std::endl;
     
 }
