@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1B11CAF1BA407EB009FF761 /* chord_convertor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B11CAD1BA407EB009FF761 /* chord_convertor.cpp */; };
+		D1B11CB21BA409EB009FF761 /* key.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B11CB01BA409EB009FF761 /* key.cpp */; };
+		D1C9FCAB1BA3B47F003445D3 /* set_attributes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C9FCA91BA3B47F003445D3 /* set_attributes.cpp */; };
+		D1C9FCAE1BA3B959003445D3 /* chord_generator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C9FCAC1BA3B959003445D3 /* chord_generator.cpp */; };
 		D1F659B21BA2C3A9008BF95A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1F659B11BA2C3A9008BF95A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D1B11CAD1BA407EB009FF761 /* chord_convertor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chord_convertor.cpp; sourceTree = "<group>"; };
+		D1B11CAE1BA407EB009FF761 /* chord_convertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chord_convertor.h; sourceTree = "<group>"; };
+		D1B11CB01BA409EB009FF761 /* key.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = key.cpp; sourceTree = "<group>"; };
+		D1B11CB11BA409EB009FF761 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		D1C9FCA91BA3B47F003445D3 /* set_attributes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = set_attributes.cpp; sourceTree = "<group>"; };
+		D1C9FCAA1BA3B47F003445D3 /* set_attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set_attributes.h; sourceTree = "<group>"; };
+		D1C9FCAC1BA3B959003445D3 /* chord_generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chord_generator.cpp; sourceTree = "<group>"; };
+		D1C9FCAD1BA3B959003445D3 /* chord_generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chord_generator.h; sourceTree = "<group>"; };
+		D1C9FCAF1BA3B981003445D3 /* chord_type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chord_type.h; sourceTree = "<group>"; };
 		D1F659AE1BA2C3A9008BF95A /* chordGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chordGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F659B11BA2C3A9008BF95A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D1F659B81BA2C652008BF95A /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributes.h; sourceTree = "<group>"; };
@@ -60,6 +73,15 @@
 			children = (
 				D1F659B11BA2C3A9008BF95A /* main.cpp */,
 				D1F659B81BA2C652008BF95A /* attributes.h */,
+				D1C9FCA91BA3B47F003445D3 /* set_attributes.cpp */,
+				D1C9FCAA1BA3B47F003445D3 /* set_attributes.h */,
+				D1C9FCAC1BA3B959003445D3 /* chord_generator.cpp */,
+				D1C9FCAD1BA3B959003445D3 /* chord_generator.h */,
+				D1C9FCAF1BA3B981003445D3 /* chord_type.h */,
+				D1B11CAD1BA407EB009FF761 /* chord_convertor.cpp */,
+				D1B11CAE1BA407EB009FF761 /* chord_convertor.h */,
+				D1B11CB01BA409EB009FF761 /* key.cpp */,
+				D1B11CB11BA409EB009FF761 /* key.h */,
 			);
 			path = chordGen;
 			sourceTree = "<group>";
@@ -121,6 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F659B21BA2C3A9008BF95A /* main.cpp in Sources */,
+				D1B11CAF1BA407EB009FF761 /* chord_convertor.cpp in Sources */,
+				D1C9FCAE1BA3B959003445D3 /* chord_generator.cpp in Sources */,
+				D1C9FCAB1BA3B47F003445D3 /* set_attributes.cpp in Sources */,
+				D1B11CB21BA409EB009FF761 /* key.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +234,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_VARIANTS = normal;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -218,6 +247,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_VARIANTS = normal;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				"CLANG_CXX_LIBRARY[arch=*]" = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = "";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
