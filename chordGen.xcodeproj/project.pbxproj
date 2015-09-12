@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D1F659AE1BA2C3A9008BF95A /* chordGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chordGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F659B11BA2C3A9008BF95A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D1F659B81BA2C652008BF95A /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D1F659B11BA2C3A9008BF95A /* main.cpp */,
+				D1F659B81BA2C652008BF95A /* attributes.h */,
 			);
 			path = chordGen;
 			sourceTree = "<group>";
@@ -205,6 +207,9 @@
 		D1F659B61BA2C3A9008BF95A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GCC_VERSION = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +217,9 @@
 		D1F659B71BA2C3A9008BF95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_VARIANTS = normal;
+				GCC_VERSION = "";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +243,7 @@
 				D1F659B71BA2C3A9008BF95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
