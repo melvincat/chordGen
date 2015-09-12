@@ -10,7 +10,7 @@
 std::string key_values(const std::vector<std::string> &key,
                        const int &first, const int &second, const int &third)
 {
-    std::string str = "\t(" + key[first] + ", " + key[second] + ", "+key[third] + ")";
+    std::string str = "\t[" + key[first] + ", " + key[second] + ", "+key[third] + "]";
     return str;
 }
 std::vector<std::string> chord_convertor(const std::vector<chord_type> &chord_list,
